@@ -12,6 +12,12 @@ package idiomas.modelos;
 public class Idioma {
     private String nombre;
 
+    public Idioma(String nombre){
+        this.nombre = nombre;
+    }
+    public Idioma(){
+        this(null);
+    }
     /**
      * @return the nombre
      */

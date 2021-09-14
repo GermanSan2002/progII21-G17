@@ -12,6 +12,13 @@ package lugares.modelos;
 public class Lugar {
     private String nombre;
 
+    public Lugar(String nombre){
+        this.nombre = nombre;
+    }
+    public Lugar(){
+        this(null);
+    }
+    
     /**
      * @return the nombre
      */

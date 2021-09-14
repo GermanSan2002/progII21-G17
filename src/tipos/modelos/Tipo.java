@@ -12,6 +12,13 @@ package tipos.modelos;
 public class Tipo {
     private String nombre;
 
+    public Tipo(String nombre){
+        this.nombre = nombre;
+    }
+    public Tipo(){
+        this(null);
+    }
+    
     /**
      * @return the nombre
      */

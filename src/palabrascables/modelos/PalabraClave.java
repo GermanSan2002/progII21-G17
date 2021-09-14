@@ -11,6 +11,14 @@ package palabrascables.modelos;
  */
 public class PalabraClave {
     private String nombre;
+    
+    public PalabraClave(String nombre){
+        this.nombre = nombre;
+    }
+    public PalabraClave(){
+        this(null);
+    }
+    
     /**
      * @return the nombre
      */

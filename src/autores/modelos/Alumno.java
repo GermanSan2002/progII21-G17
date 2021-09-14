@@ -16,6 +16,18 @@ public class Alumno {
     private String clave;
     private String cx;
 
+    public Alumno(int dni, String apellidos, String nombres, String clave, String cx){
+        this.dni = dni;
+        this.apellidos = apellidos;
+        this.nombres = nombres;
+        this.clave = clave;
+        this.cx = cx;
+    }
+    
+    public Alumno(){
+        this(0, null, null, null, null);
+    }
+    
     /**
      * @return the dni
      */
