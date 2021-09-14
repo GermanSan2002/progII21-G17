@@ -10,8 +10,36 @@ package grupos.modelos;
  * @author Usuario
  */
 public class Grupo {
-    String nombre;
-    String descripcion;
+    private String nombre;
+    private String descripcion;
+
+    /**
+     * @return the nombre
+     */
+    public String verNombre() {
+        return nombre;
+    }
+
+    /**
+     * @param nombre the nombre to set
+     */
+    public void asignarNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    /**
+     * @return the descripcion
+     */
+    public String verDescripcion() {
+        return descripcion;
+    }
+
+    /**
+     * @param descripcion the descripcion to set
+     */
+    public void asignarDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
     
     void mostrar(){
         

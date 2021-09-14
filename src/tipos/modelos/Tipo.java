@@ -10,7 +10,21 @@ package tipos.modelos;
  * @author Usuario
  */
 public class Tipo {
-    String nombre;
+    private String nombre;
+
+    /**
+     * @return the nombre
+     */
+    public String asignarNombre() {
+        return nombre;
+    }
+
+    /**
+     * @param nombre the nombre to set
+     */
+    public void verNombre(String nombre) {
+        this.nombre = nombre;
+    }
     
     String ToString(){
         return "";

@@ -10,7 +10,21 @@ package idiomas.modelos;
  * @author Usuario
  */
 public class Idioma {
-    String nombre;
+    private String nombre;
+
+    /**
+     * @return the nombre
+     */
+    public String verNombre() {
+        return nombre;
+    }
+
+    /**
+     * @param nombre the nombre to set
+     */
+    public void asignarNombre(String nombre) {
+        this.nombre = nombre;
+    }
     
     String ToString(){
         return "";
